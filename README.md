@@ -50,7 +50,7 @@ BDD e uma abordagem TDD para esse problema.
 # O que você deve nos entregar após a conclusão do desafio
 
 1) Código-fonte de tudo que foi desenvolvido, esteja o software funcionando ou
-não e caso tenha feito o `Ponto Extra` nos envie o DBB e/ou TDD;
+não e caso tenha feito o `Ponto Extra` nos envie o BDD e/ou TDD;
 2) linha de compilação;
 3) Informações sobre quais bibliotecas e versões foram utilizadas;
 4) Qual o tempo aproximado gasto no desenvolvimento do software;
