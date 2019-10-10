@@ -47,6 +47,8 @@ Você tenha os seguintes itens:
 Suponha que você queira pendurar essa prateleira em uma parede comum. Por favor descreva um
 BDD e uma abordagem TDD para esse problema.
 
+# O que você deve nos entregar após a conclusão do desafio
+
 1) Código-fonte de tudo que foi desenvolvido, esteja o software funcionando ou
 não e caso tenha feito o `Ponto Extra` nos envie o DBB e/ou TDD;
 2) linha de compilação;
@@ -54,3 +56,4 @@ não e caso tenha feito o `Ponto Extra` nos envie o DBB e/ou TDD;
 4) Qual o tempo aproximado gasto no desenvolvimento do software;
 5) E por último, não menos importante, quais a dificuldades que você enfrentou
 no desafio.
+
