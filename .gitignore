@@ -3,3 +3,13 @@
 ################################################################################
 
 /source/.vs/MoutsTeste/DesignTimeBuild
+/tests/Mouts.Business.Tests/obj
+/tests/Mouts.Business.Tests/bin/Debug/netcoreapp2.2
+/source/Mouts.Metadata/obj
+/source/Mouts.Metadata/bin/Debug/netstandard2.0
+/source/Mouts.Business/obj
+/source/Mouts.Business/bin/Debug/netstandard2.0
+/source/Mouts.App/obj
+/source/Mouts.App/bin/Debug/netcoreapp2.2
+/source/.vs/MoutsTeste/v16
+/.vs
