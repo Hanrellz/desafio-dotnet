@@ -5,7 +5,7 @@ namespace Mouts.Metadata
 {
     public class Alarm : Timer
     {
-        private static int timerSecords = 1;
+        private int timerSecords = 1;
         public int DigitationInterval { get; private set; }
         public Alarm(double interval, int digitationInterval) : base(interval)
         {
