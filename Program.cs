@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace QuebraCofre
+namespace myApp
 {
     class Program
     {
