@@ -1,0 +1,24 @@
+Biblioteca de testes
+- NUnitFramework v3.11.0
+
+Utilizado .NET Core 2.2 para desenvolvimento da aplicação.
+
+Plataforma de desenvolvimento
+- VS Code + Ferramentas da CLI (Interface de linha de comando) do .NET Core
+
+
+Para rodar a aplicação pelo Visual Studio basta restaurar os pacotes, buildar a solution e setar o projeto '.App' como projeto de inicialização e executar. Caso utilize o VS Code com ferramentas CLI do .NET Core, siga os passos a seguir:
+
+1º - Acesse a pasta principal da aplicação (onde se encontra a solucion) e execute o comando 'dotnet restore', para obter os pacotes nuget e suas referências.
+2º - Execute o comando 'dotnet build' para 'buildar' a aplicação.
+3º - Vá ao diretório de nomenclatura 'Mouts.App' e execute o comando 'dotnet run'.
+
+Para execucação de testes vá ao diretório principal (onde se encontra a solution) e execute o comando 'dotnet test'
+
+
+Tempo de desenvolvimento
+- O tempo aproximado de desenvolvimento da aplicação levou em torno de 1 hora e 7 minutos.
+
+Dificuldades encontradas
+- Pouca vivência e experiências com BDD.
+
