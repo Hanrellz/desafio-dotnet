@@ -9,7 +9,7 @@ namespace Mouts.App
     {
         static void Main(string[] args)
         {
-            Safebox safebox = new Safebox(3, 2);
+            Safebox safebox = new Safebox(16, 7);
 
             try
             {
