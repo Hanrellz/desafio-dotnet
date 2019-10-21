@@ -1,0 +1,13 @@
+Documentação do software desenvolvido
+
+Linguagem utilizada: C#
+SDK: .NET Core 3.0.100
+IDE utilizada: Visual Studio Code
+Sistema Operacional: Debian 10
+Tipo de programa: Console application
+
+Este software tem como propósito auxiliar um agente secreto disfarçado em uma festa à desbloquear os sistemas de segurança de um cofre. Ao iniciar o software, ele irá solicitar que o usuário informe um código. Este código será um índice da série Fibonacci (pista deixada pelo próprio sistema de segurança do cofre), que ao ser informado, o software irá calcular instantaneamente e devolver o valor correspondente à sua sequência na série. O software repetirá este processo por 7 vezes até que seja finalizado. Cada um destes 7 códigos devolvidos pelo software fazem parte da senha composta do sistema de segurança do cofre.
+
+Compilação e execução (Acessar o diretório principal do projeto)
+Comando para compilação: dotnet build
+Comando para inicialização: dotnet run

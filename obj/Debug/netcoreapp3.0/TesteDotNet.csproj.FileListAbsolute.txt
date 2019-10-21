@@ -1,0 +1,11 @@
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet.deps.json
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet.runtimeconfig.json
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet.runtimeconfig.dev.json
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet.dll
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/bin/Debug/netcoreapp3.0/TesteDotNet.pdb
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/obj/Debug/netcoreapp3.0/TesteDotNet.csprojAssemblyReference.cache
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/obj/Debug/netcoreapp3.0/TesteDotNet.AssemblyInfoInputs.cache
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/obj/Debug/netcoreapp3.0/TesteDotNet.AssemblyInfo.cs
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/obj/Debug/netcoreapp3.0/TesteDotNet.dll
+/home/jcschmitt/projetos/TesteMouts/TesteDotNet/obj/Debug/netcoreapp3.0/TesteDotNet.pdb

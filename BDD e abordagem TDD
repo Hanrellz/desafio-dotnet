@@ -1,0 +1,44 @@
+BDD (Behavior Driven Development)
+Desenvolvido com base em boas práticas de utilização da linguagem Gherkin.
+
+Cenário: Obter as medidas das posições dos furos do suporte da prateleira
+DADO que o profissional esteja pronto para trabalhar
+E possua em mãos um lápis
+E possua em mãos uma régua grande de 1 metro
+QUANDO o profissional estiver de frente com a prateleira com suporte de parede de 4 furos
+ENTAO o profissional deve tirar as medidas mapeando os 4 furos do suporte de parede com o lápis e a régua.
+
+Cenário: Marcar as posições dos furos do suporte da prateleira na parede
+DADO que o profissional tenha as medidas dos 4 furos do suporte de parede
+E possua em mãos um lápis
+E possua em mãos uma régua grande de 1 metro
+E possua um nível
+QUANDO o profissional estiver de frente com a parede comum
+ENTAO o profissional deve usar o lápis e a régua para sinalizar na parede as posições onde ficarão os 4 furos de acordo com as medidas, sempre verificando o nível
+E o nível não pode ficar torto.
+
+Cenário: Furar os 4 pontos marcados na parede
+DADO que as 4 posições estejam marcadas na parede
+E o profissional possua em mãos uma furadeira
+QUANDO o profissional estiver de frente com a parede marcada
+ENTAO o profissional deve usar a furadeira para furar os 4 pontos marcados na parede.
+
+Cenário: Colocar as buchas nos 4 furos da parede
+DADO que a parede tenha os 4 furos
+E o profissional possua em mãos 4 buchas
+QUANDO o profissional estiver de frente com a parede furada
+ENTAO o profissional deve colocar 1 bucha em cada furo.
+
+Cenário: Fixar a prateleira na parede
+DADO que a parede tenha os 4 furos com as buchas
+E o profissional possua em mãos a prateleira com suporte anexado
+E possua em mãos 4 parafusos
+E possua em mãos 1 chave de fenda
+QUANDO o profissional estiver de frente com a parede furada com buchas
+ENTAO o profissional deve posicionar corretamente a prateleira na parede alinhando os buracos do suporte com os furos
+E introduzir os parafusos em suas devidas posições
+E usar a chave de fenda para apertar os parafusos. 
+
+Abordagem TDD (Test Driven Development)
+
+Com base nos 5 cenários descritos no BDD acima, desenvolver algoritmos que executem cada função e fazer com que o TestMethod compare o resultado da execução com os resultados esperados pelos cenários. 
