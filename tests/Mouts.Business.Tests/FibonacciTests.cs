@@ -18,7 +18,7 @@ namespace Tests
                 {35, "1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040,1346269,2178309,3524578,5702887,9227465"},
             };
 
-            this.TemplateTestMethod<string>(Fibonacci.GetSequency, testSequencies, fibonacciIndex);
+            this.TemplateTestMethod<int ,string>(Fibonacci.GetSequency, testSequencies, fibonacciIndex);
         }
 
         [Test]
@@ -31,7 +31,7 @@ namespace Tests
                 {35, 24157816}
             };
 
-            this.TemplateTestMethod<long>(Fibonacci.GetAmount, testSequencies, fibonacciIndex);
+            this.TemplateTestMethod<int, long>(Fibonacci.GetAmount, testSequencies, fibonacciIndex);
         }
 
         [Test]
@@ -44,9 +44,29 @@ namespace Tests
                 {35, 9227465}
             };
 
-            this.TemplateTestMethod<long>(Fibonacci.GetValueFromIndex, testSequencies, fibonacciIndex);
+            this.TemplateTestMethod<int, long>(Fibonacci.GetValueFromIndex, testSequencies, fibonacciIndex);
         }
-        private void TemplateTestMethod<TResult>(Func<int, TResult> testMethod, IDictionary<int, TResult> expectedResults, int fibonacciIndex)
+
+        [TestCase(1304969544928657)]
+        [TestCase(2111485077978050)]
+        [TestCase(3416454622906707)]
+        [TestCase(5527939700884757)]
+        [TestCase(8944394323791464)]
+        public void GetIndexFromValue_Should_Return_Fibonacci_Index_From_Fibonacci_Sequency_Value(long fibonacciIndex)            
+        {
+            IDictionary<long, int> testSequencies = new Dictionary<long, int>()
+            {
+                {1304969544928657, 74},
+                {2111485077978050, 75},
+                {3416454622906707, 76},
+                {5527939700884757, 77},
+                {8944394323791464, 78}
+            };
+
+            this.TemplateTestMethod<long, int>(Fibonacci.GetIndexFromValue, testSequencies, fibonacciIndex);
+        }
+
+        private void TemplateTestMethod<TInput,TResult>(Func<TInput, TResult> testMethod, IDictionary<TInput, TResult> expectedResults, TInput fibonacciIndex)
         {
             TResult result = testMethod(fibonacciIndex);
 

@@ -21,7 +21,9 @@ namespace Mouts.Metadata
                 Environment.Exit(0);
             }
 
-            Console.WriteLine(timerSecords + " second to sound the alarm!!!");
+            if(timerSecords == 1)
+                Console.WriteLine("Safebox's timer began!");
+                
             timerSecords++;
         }
 

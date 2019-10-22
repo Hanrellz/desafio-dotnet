@@ -6,9 +6,16 @@ namespace Mouts.Business
 {
     public class Fibonacci
     {
+        public static int GetIndexFromValue(long fibonacciValue)
+        {
+            float fibonacciIndex = 2.078087F * (float)Math.Log(fibonacciValue) + 1.672276F;
+             
+            return (int)(Math.Round(fibonacciIndex));
+        }
+
         public static long GetValueFromIndex(int fibonacciIndex)
         {
-            string[] numbers =  Calculate(fibonacciIndex).Split(',');
+            string[] numbers = Calculate(fibonacciIndex).Split(',');
             int lastNumberIndex = numbers.Length - 1;
 
             return numbers.Any() ? long.Parse(numbers[lastNumberIndex]) : 0;
