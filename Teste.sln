@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuebraCofre", "QuebraCofre\QuebraCofre.csproj", "{C056776E-AD86-45CC-9F1C-10CBC0A80FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prateleira.Test", "Prateleira.Test\Prateleira.Test.csproj", "{17AA88B8-0D11-4574-8544-DA61F7321CF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C056776E-AD86-45CC-9F1C-10CBC0A80FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C056776E-AD86-45CC-9F1C-10CBC0A80FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C056776E-AD86-45CC-9F1C-10CBC0A80FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C056776E-AD86-45CC-9F1C-10CBC0A80FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AA88B8-0D11-4574-8544-DA61F7321CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AA88B8-0D11-4574-8544-DA61F7321CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AA88B8-0D11-4574-8544-DA61F7321CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AA88B8-0D11-4574-8544-DA61F7321CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ACD2199-C7B1-4D97-ABEE-1188DA3E9E5F}
+	EndGlobalSection
+EndGlobal
