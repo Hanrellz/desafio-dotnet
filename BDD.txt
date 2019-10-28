@@ -1,0 +1,11 @@
+Cenário: Pendurar uma prateleira em uma parede comum
+
+Dado que eu tenho uma 1 régua grande de 1m, 1 nível, 4 parafusos e buchas, 1 chave de fenda, 1 furadeira, 1 prateleira que tem um suporte de parede anexado com 4 furos
+
+E um lápis
+
+Quando eu usar a régua grande para medir a distância entre os parafusos na parede, usarei o lápis para desenhar em linhas retas o comprimento e a altura da prateleira e marcando os quatro furos onde exatamente será anexada, com a furadeira em mãos, farei os quatro furos marcados na parede, depois, colocar as buchas nos buracos. Finalizando isso, com a ajuda de uma chave de fenda, parafusarei os parafusos no buraco na parede, logo depois, anexarei a prateleira na parede com o seu suporte encaixado nos parafusos e com o auxílio de um nível, verificarei se não existe nenhum desnível após instalada
+
+Então eu deveria ter uma parede sem prateleira
+
+E eu deveria ter uma prateleira instalada na parede

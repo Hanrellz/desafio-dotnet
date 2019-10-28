@@ -1,0 +1,7 @@
+Visual Studio Code 1.39.2
+
+dotNet Core 3.0
+
+Linguagem C# 
+
+Console Application
