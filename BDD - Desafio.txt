@@ -1,0 +1,31 @@
+BDD
+Feature/Contexto: Pendurar a Prateleira
+Critério de aceite: Prateleira pendurada na parede de forma nivelada e utilizando quatro parafusos e buchas.
+
+Cenario: Medir distância dos furos
+<Dado> Que preciso marcar corretamente as furações
+<Quando> Eu efetuar as medidas com refência do chão
+<E> Marcar com lápis
+<Então> Terei as marcações aproximadas de onde efetuar os 4 furos
+
+Cenario: Ajustar o nível das marcações
+<Dado> A necessidade de garantir as marcações alinhadas ao nível
+<Quando> Eu medir com o nível
+<E> Ajustar as marcações utilizando o lápis
+<Então> Terei as marcações na parede com precisão
+<E> O nível estará garantido
+
+Cenario: Furar a parede
+<Dado> Que os furos precisam ser feitos
+<Quando> Eu furar com a furadeira a parede exatamente onde estão as marcações
+<Então> Terei os 4 furos feitos
+
+Cenario: Colocar buchas
+<Dado> Que os furos estão feitos
+<Quando> Eu adicionar as buchas nos furos
+<Então> Terei os 4 furos prontos para receberem os parafusos
+
+Cenario: Parafusar prateleira
+<Dado> Que os furos estão prontos para receber os parafusos
+<Quando> Eu colocar a prateleira e parafusar utilizando a chave de fenda
+<Então> Terei a prateleira parafusada à parede no nível
