@@ -1,1 +1,1 @@
-A princípio não foram encontradas alguma dificuldade
+A dificuldades encontradas foi trabalhar no ambiente Linux, uma vez que estou habituado a trabalhar no Windows, pois tive que pesquisar em como instalar o VSCode no Linux e rodar os comandos necessários para compilar e executar a app neste ambiente.
