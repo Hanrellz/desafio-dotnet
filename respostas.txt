@@ -1,0 +1,18 @@
+Versões
+ - .NET Core 2.2.402
+ - NUnitFramework 3.11.0
+
+
+Ferramentas
+- VS Code + .NET Core CLI + GitKraken
+
+Instruções para build e test
+
+No diretório /Fibonnaci/fibonacci/ - abrir o terminal e executar o seguinte comando "dotnet restore && dotnet run"
+No diretório /TDD/prateleiraTDD/prateleira.testes/ - abrir o terminal e executar o seguinte comando "dotnet restore && dotnet test"
+
+Tempo de desenvolvimento
+- 2h
+
+Dificuldades encontradas
+- Decidir por implementar ou não a interação com o usuário no primeiro desafio.

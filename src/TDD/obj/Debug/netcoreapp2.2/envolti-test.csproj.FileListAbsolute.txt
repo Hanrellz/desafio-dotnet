@@ -1,0 +1,11 @@
+/home/macari/desafios/envolti-test/bin/Debug/netcoreapp2.2/envolti-test.deps.json
+/home/macari/desafios/envolti-test/bin/Debug/netcoreapp2.2/envolti-test.runtimeconfig.json
+/home/macari/desafios/envolti-test/bin/Debug/netcoreapp2.2/envolti-test.runtimeconfig.dev.json
+/home/macari/desafios/envolti-test/bin/Debug/netcoreapp2.2/envolti-test.dll
+/home/macari/desafios/envolti-test/bin/Debug/netcoreapp2.2/envolti-test.pdb
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.csprojAssemblyReference.cache
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.csproj.CoreCompileInputs.cache
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.AssemblyInfoInputs.cache
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.AssemblyInfo.cs
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.dll
+/home/macari/desafios/envolti-test/obj/Debug/netcoreapp2.2/envolti-test.pdb
