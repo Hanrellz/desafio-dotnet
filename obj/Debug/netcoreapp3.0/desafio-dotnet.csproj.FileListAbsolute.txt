@@ -1,0 +1,11 @@
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet.deps.json
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet.runtimeconfig.json
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet.runtimeconfig.dev.json
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet.dll
+/home/jose/serie/desafio-dotnet/bin/Debug/netcoreapp3.0/desafio-dotnet.pdb
+/home/jose/serie/desafio-dotnet/obj/Debug/netcoreapp3.0/desafio-dotnet.csprojAssemblyReference.cache
+/home/jose/serie/desafio-dotnet/obj/Debug/netcoreapp3.0/desafio-dotnet.AssemblyInfoInputs.cache
+/home/jose/serie/desafio-dotnet/obj/Debug/netcoreapp3.0/desafio-dotnet.AssemblyInfo.cs
+/home/jose/serie/desafio-dotnet/obj/Debug/netcoreapp3.0/desafio-dotnet.dll
+/home/jose/serie/desafio-dotnet/obj/Debug/netcoreapp3.0/desafio-dotnet.pdb
