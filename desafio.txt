@@ -1,0 +1,92 @@
+BDD
+
+dados
+
+1 régua grande de 1m
+1 nível
+4 parafusos e buchas
+1 chave de fenda
+1 furadeira
+1 prateleira que tem um suporte de parede anexado com 4 furos
+1 lápis
+
+quando pegar o lapis
+e pegar a regua
+e pegar o nivel
+entao verificar posicao , tamanho  e local dos furos
+entao vereificar o nivelamento para nao ficar torto
+entao marque com o lapis o local dos buracos para a prateleira 
+entao faça os buracos com a furadeira
+ e coloque as buchas
+entao adicione o suporte em cima das buchas
+e em seguida coloque os parafusos
+entao aperte os parafusos com a chave de fenda ate o final
+entao no final a prateleira estara na parede
+
+
+TDD
+
+namespace Prateleira.controller
+{
+public class prateleira:controller
+{
+public string Instalacao(regua , nivel , parafusos, buchas, chaveFenda, furadeira,prateleira , lapis){
+
+	if(regra == null)
+	return "Voce esta sem a regra";
+
+	if(nivel == null)
+	return "Voce esta sem nivel";
+
+	if(parafusos == null)
+	return "Voce esta sem os parafusos";
+
+	if(parafusos != 4)
+	return "Voce precisara de 4 parafusos";
+
+	if(buchas == null)
+	return "Voce esta sem as buchas";
+
+	if(buchas != 4)
+	return "Voce precisara de 4 buchas";
+
+	if(chaveFenda == null)
+	return "Voce precisara da chave de Fenda";
+	
+	if(furadeira == null)
+	return "Voce precisara da furadeira";
+
+	if(prateleira == null)
+	return "Voce precisara da prateleira";
+
+	if(suportePrateleira == null)
+	return "a Prateleira precisara de suportes";
+	
+	if(lapis == null)
+	return "voce precisara de lapis";
+	
+	MedirPosicaoPrateleira();
+	
+	if(!UsouNivel)
+	return "Marcacao ficou desniveldada";
+	
+	if(!UsouRegua)
+	return "Marcacao esta torta";
+	
+	FurarParede();
+	
+	if(!QuatroFuros)	
+	return "Sao necessarios 4 furos");
+	
+	ColocarBuchas();
+	
+	if(ColocouParafusos)
+	return "Coloque as prateleira primeiro";
+	
+	ColocarPrateleiras()
+	ColocarParafusos();
+	ApertarParafusos();
+	
+	return "Prateleira Fixada com sucesso";
+}	
+}}
