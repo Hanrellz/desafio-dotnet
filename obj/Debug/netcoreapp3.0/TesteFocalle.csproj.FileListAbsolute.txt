@@ -1,0 +1,11 @@
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle.deps.json
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle.runtimeconfig.json
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle.runtimeconfig.dev.json
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle.dll
+/home/jose/serie/luiz/TesteFocalle/bin/Debug/netcoreapp3.0/TesteFocalle.pdb
+/home/jose/serie/luiz/TesteFocalle/obj/Debug/netcoreapp3.0/TesteFocalle.csprojAssemblyReference.cache
+/home/jose/serie/luiz/TesteFocalle/obj/Debug/netcoreapp3.0/TesteFocalle.AssemblyInfoInputs.cache
+/home/jose/serie/luiz/TesteFocalle/obj/Debug/netcoreapp3.0/TesteFocalle.AssemblyInfo.cs
+/home/jose/serie/luiz/TesteFocalle/obj/Debug/netcoreapp3.0/TesteFocalle.dll
+/home/jose/serie/luiz/TesteFocalle/obj/Debug/netcoreapp3.0/TesteFocalle.pdb
